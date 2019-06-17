@@ -4,6 +4,6 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: prependToLines} = indexModule
 
 it("should run", () => {
-  const result = prependToLines()
-  expect(result).toBeGreaterThan(1549410770)
+  const result = prependToLines("a\nb")
+  expect(result).toStrictEqual("# a\n# b")
 })
