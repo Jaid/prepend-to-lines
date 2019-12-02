@@ -3,6 +3,15 @@
 
 Adds given string to each line of text of another string.
 
+## Installation
+<a href='https://npmjs.com/package/prepend-to-lines'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save prepend-to-lines@^
+```
+<a href='https://yarnpkg.com/package/prepend-to-lines'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add prepend-to-lines@^
+```
 
 
 ## Try it out
