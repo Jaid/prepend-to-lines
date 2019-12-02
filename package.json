@@ -31,5 +31,6 @@
     "test:debug": "DEBUG=\"$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "prepend-to-lines"
+  "name": "prepend-to-lines",
+  "description": "Adds given string to each line of text of another string."
 }
