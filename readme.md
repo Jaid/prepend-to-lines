@@ -1,7 +1,7 @@
 # prepend-to-lines
 
 
-Adds given string to each line of text of another string.
+Prepends a string to each line of another string.
 
 ## Installation
 <a href='https://npmjs.com/package/prepend-to-lines'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
