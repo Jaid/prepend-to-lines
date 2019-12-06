@@ -32,5 +32,5 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "prepend-to-lines",
-  "description": "Adds given string to each line of text of another string."
+  "description": "Prepends a string to each line of another string."
 }
