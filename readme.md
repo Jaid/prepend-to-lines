@@ -1,16 +1,16 @@
 # prepend-to-lines
 
 
-Adds given string to each line of text of another string.
+Prepends a string to each line of another string.
 
 ## Installation
 <a href='https://npmjs.com/package/prepend-to-lines'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save prepend-to-lines@^1.0.0
+npm install --save prepend-to-lines@^1.0.1
 ```
 <a href='https://yarnpkg.com/package/prepend-to-lines'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add prepend-to-lines@^1.0.0
+yarn add prepend-to-lines@^1.0.1
 ```
 
 
@@ -21,7 +21,7 @@ Open a browser's JavaScript console and execute:
 ```javascript
 const scriptElement = document.createElement("script");
 scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/prepend-to-lines@1.0.0");
+scriptElement.setAttribute("src","https://unpkg.com/prepend-to-lines@1.0.1");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
