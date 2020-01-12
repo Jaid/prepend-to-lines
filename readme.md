@@ -1,52 +1,64 @@
 # prepend-to-lines
 
 
-Prepends a string to each line of another string.
+<a href="https://raw.githubusercontent.com/Jaid/prepend-to-lines/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/prepend-to-lines?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/prepend-to-lines/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fprepend-to-lines%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/commits-since/Jaid/prepend-to-lines/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/Jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/last-commit/Jaid/prepend-to-lines?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/prepend-to-lines/issues"><img src="https://img.shields.io/github/issues/Jaid/prepend-to-lines?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/v/prepend-to-lines?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/prepend-to-lines/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/prepend-to-lines?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/dm/prepend-to-lines?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Prepends a string to each line of another string.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/prepend-to-lines'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/badge/npm-prepend--to--lines-C23039?style=flat-square&logo=npm" alt="prepend-to-lines on npm"/></a>
 ```bash
 npm install --save prepend-to-lines@^1.0.1
 ```
-<a href='https://yarnpkg.com/package/prepend-to-lines'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/prepend-to-lines"><img src="https://img.shields.io/badge/Yarn-prepend--to--lines-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="prepend-to-lines on Yarn"/></a>
 ```bash
 yarn add prepend-to-lines@^1.0.1
 ```
-
-
-## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/prepend-to-lines@1.0.1");
-document.querySelector("head").appendChild(scriptElement);
+<a href="https://jsdelivr.com/package/npm/prepend-to-lines/"><img src="https://img.shields.io/badge/jsDelivr-prepend--to--lines-orange?style=flat-square&logo=html5&logoColor=white" alt="prepend-to-lines on jsDelivr"/></a> <a href="https://unpkg.com/browse/prepend-to-lines/"><img src="https://img.shields.io/badge/UNPKG-prepend--to--lines-orange?style=flat-square&logo=html5&logoColor=white" alt="prepend-to-lines on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/prepend-to-lines@1.0.1/index.js"/>
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
 
-```javascript
-typeof prependToLines.default
+
+
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/prepend-to-lines.git
+cd prepend-to-lines
+npm install
 ```
-
-## Documentation
-Returns the given string with an additional prefix on each line
-
-**Kind**: Exported member  
-**Returns**: <code>string</code> - New string  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| string | <code>\*</code> | The string that may contain "\n" and "\r" |
-| linePrefix | <code>string</code> | The prefix that will be added to each line of `string` |
-
-**Example**  
-```javascript
-import prependToLines from "prepend-to-lines"
-const result = prependToLines("a\nb", "# ")
-result === "# a\n# b"
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -54,7 +66,7 @@ result === "# a\n# b"
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
