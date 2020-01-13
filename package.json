@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "prepend-to-lines",
-  "description": "Prepends a string to each line of another string."
+  "description": "Prepends a string to each line of another string.",
+  "funding": "https://github.com/sponsors/jaid"
 }
