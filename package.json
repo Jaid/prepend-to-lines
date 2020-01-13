@@ -33,5 +33,9 @@
   },
   "name": "prepend-to-lines",
   "description": "Prepends a string to each line of another string.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/prepend-to-lines"
+  }
 }
