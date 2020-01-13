@@ -1,9 +1,9 @@
 # prepend-to-lines
 
 
-<a href="https://raw.githubusercontent.com/Jaid/prepend-to-lines/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/prepend-to-lines?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/prepend-to-lines/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fprepend-to-lines%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/commits-since/Jaid/prepend-to-lines/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/Jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/last-commit/Jaid/prepend-to-lines?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/prepend-to-lines/issues"><img src="https://img.shields.io/github/issues/Jaid/prepend-to-lines?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/v/prepend-to-lines?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/prepend-to-lines/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/prepend-to-lines?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/dm/prepend-to-lines?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/prepend-to-lines/master/license.txt"><img src="https://img.shields.io/github/license/jaid/prepend-to-lines?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor prepend-to-lines"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/prepend-to-lines/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fprepend-to-lines%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/commits-since/jaid/prepend-to-lines/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/jaid/prepend-to-lines/commits"><img src="https://img.shields.io/github/last-commit/jaid/prepend-to-lines?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/prepend-to-lines/issues"><img src="https://img.shields.io/github/issues/jaid/prepend-to-lines?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/v/prepend-to-lines?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/prepend-to-lines/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/prepend-to-lines?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/prepend-to-lines"><img src="https://img.shields.io/npm/dm/prepend-to-lines?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Prepends a string to each line of another string.**
 
@@ -41,14 +41,13 @@ yarn add prepend-to-lines@^1.0.1
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/prepend-to-lines.git
+git clone git@github.com:jaid/prepend-to-lines.git
 cd prepend-to-lines
 npm install
 ```
