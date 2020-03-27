@@ -7,3 +7,10 @@ it("should run", () => {
   const result = prependToLines("a\nb")
   expect(result).toStrictEqual("# a\n# b")
 })
+
+it("should run with custom line break conditions", () => {
+  const text = "a\r\nb\nc"
+  const lines = text.split(/[\n\r]+/)
+  const result = prependToLines(lines, "* ")
+  expect(result).toStrictEqual("* a\n* b\n* c")
+})
