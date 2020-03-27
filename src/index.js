@@ -3,7 +3,7 @@
 import {isString} from "lodash"
 
 const prependToLines = (string, linePrefix = "# ") => {
-  if (string |> isString) {
+  if (isString(string)) {
     return string.replace(/^(.*)$/gm, line => `${linePrefix}${line}`)
   } else if (Array.isArray(string)) {
     return string.map(line => `${linePrefix}${line}`).join("\n")
