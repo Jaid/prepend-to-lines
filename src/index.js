@@ -14,11 +14,7 @@ const prependToLines = (string, linePrefix = "# ") => {
 
 /**
  * Returns the given string with an additional prefix on each line
- * @example
- * import prependToLines from "prepend-to-lines"
- * const result = prependToLines("a\nb", "# ")
- * result === "# a\n# b"
- * @param {*} string The string that may contain "\n" and "\r"
+ * @param {string} string The string that may contain "\n" and "\r"
  * @param {string} linePrefix The prefix that will be added to each line of `string`
  * @returns {string} New string
  */
