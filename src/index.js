@@ -2,7 +2,7 @@
 
 import {isString} from "lodash"
 
-const prependToLines = (string, linePrefix = "# ") => {
+const prependToLines = (string, linePrefix = "") => {
   if (isString(string)) {
     return string.replace(/^(.*)$/gm, line => `${linePrefix}${line}`)
   } else if (Array.isArray(string)) {
