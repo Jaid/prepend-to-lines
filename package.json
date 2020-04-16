@@ -32,10 +32,12 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "prepend-to-lines",
-  "description": "Prepends a string to each line of another string.",
+  "description": "Adds given string to each line of text of another string.",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/prepend-to-lines"
-  }
+  },
+  "homepage": "https://github.com/Jaid/prepend-to-lines",
+  "keywords": []
 }
