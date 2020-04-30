@@ -38,5 +38,15 @@
     "url": "https://github.com/jaid/prepend-to-lines"
   },
   "homepage": "https://github.com/Jaid/prepend-to-lines",
-  "keywords": []
+  "keywords": [
+    "lib",
+    "library",
+    "lines",
+    "prepend",
+    "string",
+    "strings",
+    "text",
+    "util",
+    "utility"
+  ]
 }
